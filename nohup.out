@@ -29,3 +29,46 @@
 [01/May/2018 08:14:31] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
 [01/May/2018 08:14:31] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
 [01/May/2018 08:14:31] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 01, 2018 - 07:24:56
+Django version 2.0, using settings 'jokes_app.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+2
+2
+2
+2
+2
+2
+2
+2
+1
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    execute_from_command_line(sys.argv)
+  File "/home/ubuntu/joke_api/lib/python3.6/site-packages/django/core/management/__init__.py", line 371, in execute_from_command_line
+    utility.execute()
+  File "/home/ubuntu/joke_api/lib/python3.6/site-packages/django/core/management/__init__.py", line 317, in execute
+    settings.INSTALLED_APPS
+  File "/home/ubuntu/joke_api/lib/python3.6/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/home/ubuntu/joke_api/lib/python3.6/site-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/ubuntu/joke_api/lib/python3.6/site-packages/django/conf/__init__.py", line 106, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/home/ubuntu/joke_api/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ubuntu/joke_api/jokes_app/jokes_app/jokes_app/settings.py", line 28
+    <<<<<<< HEAD
+     ^
+SyntaxError: invalid syntax
