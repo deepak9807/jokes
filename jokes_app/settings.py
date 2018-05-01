@@ -25,7 +25,7 @@ SECRET_KEY = 'hp#zurtj+wj6_weo)8fzc-q0$)dj5_8dx=ev05vtz_=g_ojsj='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0','192.168.0.100']
+ALLOWED_HOSTS = ['52.36.129.25','apis.minduses.com']
 
 
 # Application definition
